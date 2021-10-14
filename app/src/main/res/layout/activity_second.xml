@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="3mm"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_2"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="4mm"
+        android:id="@+id/txtHello" />
+
+    <TextView
+        android:text="This is Second Activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHello"
+        android:textSize="3mm"
+        android:id="@+id/textView3" />
+</RelativeLayout>
